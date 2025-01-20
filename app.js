@@ -15,5 +15,6 @@ async function getMyRepo() {
   console.log(json);
 
   console.log(json.stargazers_count);
+  console.log(json.forks_url);
 }
 getMyRepo();
